@@ -1,0 +1,126 @@
+/* CSS Document */
+
+/*table styling*/
+/* styling for service details  */
+div.table_content{
+		margin-top:100px;
+		margin-left:300px;
+		max-width:630px;
+		
+		height:auto;
+		
+		background:repeating-linear-gradient(1deg,#e7eae7,#a1a6a2,#e7eae7);
+		padding:20px;
+		padding-bottom:50px;
+	}
+#update_service input,#update_service2 input{
+	width:220px;
+	border-radius:5px;
+	display:block;
+	margin:10px;
+	height:20px;
+}
+#update_service,#update_service2{
+		position:fixed;
+		z-index:100;
+		top:80px;
+		left:300px;
+		padding:10px;
+		display:none;
+		background:repeating-linear-gradient(100deg,#57b2f2,#32a1ef,#57b2f2);
+		box-shadow:5px 5px 200px rgba(0,0,0,.3),-5px 0px 230px rgba(0,0,0,.3);
+}
+#update_service input:focus,#update_service2 input:focus
+{
+	outline:rgba(45,56,200,.3) solid 1px;
+}
+
+table, td,tr,th{
+	border:1px solid rgba(2,207,84,.1);
+	margin:0;
+	padding:8px;
+}
+ table{
+	border-collapse:collapse;
+	font-size:17px;
+	
+}
+#show_service::-webkit-scrollbar{
+		background:#a4a3a7;
+		width:10px;
+		border-radius:3px;
+	}
+#show_service2::-webkit-scrollbar{
+		background:#a4a3a7;
+		width:10px;
+		border-radius:3px;
+	}	
+#show_service::-webkit-scrollbar-thumb{
+		background:#39a831;
+		border-radius:5px;
+	}
+#show_service2::-webkit-scrollbar-thumb{
+		background:#39a831;
+		border-radius:5px;
+	}
+#show_service,#show_service2{
+	max-height:350px;
+	overflow-y:auto;
+	overflow-x:hidden;
+		
+}
+thead{
+	background:repeating-linear-gradient(1deg,#55bf58,#0f7e11,#55bf58);
+	color:#fff;
+	}
+
+tbody tr:nth-child(even){
+	background:repeating-linear-gradient(1deg,#ddc8d1,#f6ebf0,#ddc8d1);
+}
+
+tbody tr:nth-child(odd){
+	background:repeating-linear-gradient(0deg,#75f5cc,#4ac69f,#75f5cc);
+}
+table a{
+	text-decoration:none;
+	}
+table a:hover{
+	text-decoration:underline;
+}
+/*end of service table styling*/
+#click{
+	margin-top:20px;
+	margin-left:400px;
+}
+ button.btn{
+	width:65px;
+	height:30px;
+	font-size:15px;
+	color:#071a1a;
+	background:repeating-linear-gradient(0deg,#becaca,#9ca9a9,#becaca);
+	
+}
+/* banking accounts details  */
+div.table_content2{
+		margin-top:40px;
+		margin-bottom:100px;
+		display:none;
+		margin-left:300px;
+		max-width:600px;
+		height:auto;
+		background:repeating-linear-gradient(1deg,#e7eae7,#a1a6a2,#e7eae7);
+		padding:20px;
+		padding-bottom:50px;
+	
+	}
+td.account:hover{
+		text-decoration:underline;
+		color:#674ee5;
+		cursor:pointer;
+	}
+
+div.withd{
+		display:inline-block;
+		margin-right:20px;
+		margin-top:20px;
+	}
